@@ -32,4 +32,15 @@ public class Pessoa {
     public void setBff(Pessoa bff) {
         this.bff = bff;
     }
+
+    public String toString(){
+        String s = "Pessoa: nome: " + nome + ", ano de nascimento: " + anoNasc + ", melhor amigo: ";
+        if(bff != null && bff.getNome() != null){
+            s = s + bff.getNome() + " ]";
+        }else{
+            s = s + "ainda não tem nenhum amigo";
+        }
+
+        return s;
+    }
 }
