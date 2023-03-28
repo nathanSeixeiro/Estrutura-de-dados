@@ -1,3 +1,8 @@
+/*
+ * 10. Faça um programa para ler a nota da prova de 15 alunos e armazene num vetor, calcule
+ * e imprima a m  ́edia geral
+ */
+
 import java.util.Random;
 
 public class mediaNotas {
@@ -22,7 +27,7 @@ public class mediaNotas {
         // pular uma linha
         System.out.println();
 
-        // atribuindo a resposta a uma Strinf
+        // atribuindo a resposta a uma String
         String resposta = "Média de nota dos alunos: " + soma/notas.length;
         
         // Exibindo a resposta 
