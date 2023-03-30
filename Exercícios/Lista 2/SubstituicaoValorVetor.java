@@ -35,10 +35,16 @@ public class SubstituicaoValorVetor {
             PositivoOuNegativo = rand.nextInt(2); // os numeros são gerados a partir do 0, como desejamos
             // que a variavel receba 0 ou 1, passamos 2 como parametro
 
+            /*
+             * Nesta condição eu somei 1 ao numero randomico pra que o 0 não fosse adicionado, pois como 
+             * o 0 ja sera adicionado no lugar dos numeros negativos, podemos ter uma visualização melhor 
+             * desse processo, ja que os 0s do vetor não foram adicionados randomicamente, mas estão la pois
+             * substituiram um valor negativo.
+             */
             if (PositivoOuNegativo == 0) {
-                vet[i] = (rand.nextInt(10) + 1) * -1; 
+                vet[i] = (rand.nextInt(100) +1) * -1;
             } else {
-                vet[i] = rand.nextInt(10) + 1;
+                vet[i] = rand.nextInt(100) + 1;
             }
             
             /*
