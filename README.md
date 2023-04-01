@@ -43,44 +43,23 @@
 
 ## 👨🏻‍💻 Sobre o projeto
 
-- <p style="color: red;">Brief explanation about the project</p>
+Repositório com intuito de ajudar estudantes e entusiastas e guardar códigos de exemplo e exercícios sobre estrutura de dados em java
 
-To see the **web client**, click here: [PROJECT_NAME Web](https://github/eliasgcf/readme-template)</br>
-To see the **mobile client**, click here: [PROJECT_NAME Mobile](https://github/eliasgcf/readme-template)
+- Para ver os exemplos, clique aqui: [Exemplos](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exemplos)</br>
+- Para ver os exercícios, clique aqui: [Exercicios](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exerc%C3%ADcios)
 
 ## 🚀 Tech
 
-Technologies that I used to develop this api
-
-- [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+javinha 
 
 ## 💻 Como rodar?
 
-Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
+guia para pegar os codigos
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com/) or [npm](https://www.npmjs.com/)
-- One instance of [PostgreSQL](https://www.postgresql.org/)
+necessario para usar 
 
-> Obs.: I recommend use docker
 **Clone the project and access the folder**
 
 ```bash
@@ -89,21 +68,7 @@ $ git clone https://github.com/EliasGcf/NOME_DO_REPO.git && cd NOME_DO_REPO
 
 **Follow the steps below**
 
-```bash
-# Install the dependencies
-$ yarn
-# Create the instance of postgreSQL using docker
-$ docker run --name project-postgres -e POSTGRES_USER=docker \
-              -e POSTGRES_DB=project -e POSTGRES_PASSWORD=docker \
-              -p 5432:5432 -d postgres
-# Make sure the keys in 'ormconfig.json' to connect with your database
-# are set up correctly.
-# Once the services are running, run the migrations
-$ yarn typeorm migration:run
-# To finish, run the api service
-$ yarn dev:server
-# Well done, project is started!
-```
+
 
 ## 🤔 Como contribuir
 
