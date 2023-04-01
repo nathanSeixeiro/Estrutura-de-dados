@@ -43,7 +43,7 @@
 
 ## 👨🏻‍💻 Sobre o projeto
 
-Repositório com intuito de ajudar estudantes e entusiastas e guardar códigos de exemplo e exercícios sobre estrutura de dados em java
+Repositório com intuito de ajudar estudantes e entusiastas a entender estrutura de dados e guardar códigos de exemplo e exercícios sobre estrutura de dados em java
 
 - Para ver os exemplos, clique aqui: [Exemplos](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exemplos)</br>
 - Para ver os exercícios, clique aqui: [Exercicios](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exerc%C3%ADcios)
