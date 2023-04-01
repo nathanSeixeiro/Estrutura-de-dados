@@ -25,9 +25,9 @@
 
 <p align="center">
   <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-technologies">Tech??</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-getting-started">Para rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-how-to-contribute">Como contribuir?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tech">Tech??</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -48,7 +48,7 @@
 To see the **web client**, click here: [PROJECT_NAME Web](https://github/eliasgcf/readme-template)</br>
 To see the **mobile client**, click here: [PROJECT_NAME Mobile](https://github/eliasgcf/readme-template)
 
-## 🚀 Technologies
+## 🚀 Tech
 
 Technologies that I used to develop this api
 
@@ -70,7 +70,7 @@ Technologies that I used to develop this api
 - [Prettier](https://prettier.io/)
 - [EditorConfig](https://editorconfig.org/)
 
-## 💻 Getting started
+## 💻 Como rodar?
 
 Import the `Insomnia.json` on Insomnia App or click on [Run in Insomnia](#insomniaButton) button
 
@@ -105,7 +105,7 @@ $ yarn dev:server
 # Well done, project is started!
 ```
 
-## 🤔 How to contribute
+## 🤔 Como contribuir
 
 **Make a fork of this repository**
 
