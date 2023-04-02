@@ -25,13 +25,12 @@
 
 <p align="center">
   <a href="#-sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-tech">Tech??</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
-  <a href="" target="_blank">
+  <a href="" target="[_blank](https://docs.oracle.com/en/java/javase/11/docs/api/index.html)">
             <img align="center" alt="Java" height="90" width="95" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg">
   </a>
  </p>
@@ -48,50 +47,58 @@ Repositório com intuito de ajudar estudantes e entusiastas a entender estrutura
 - Para ver os exemplos, clique aqui: [Exemplos](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exemplos)</br>
 - Para ver os exercícios, clique aqui: [Exercicios](https://github.com/nathanSeixeiro/Estrutura-de-dados/tree/main/Exerc%C3%ADcios)
 
-## 🚀 Tech
-
-javinha 
 
 ## 💻 Como rodar?
 
-guia para pegar os codigos
+Vamos mostrar duas maneiras de como utilizar esses codigos: 
 
-### Requirements
 
-necessario para usar 
+### Necessário
 
-**Clone the project and access the folder**
+- Editor de texto ou IDE de sua preferência;
+- JDK instalado;
+- ...
+
+#### Clonar o projeto
+
+A primeira maneira é clonando o projeto para sua máquina seguindo os passos abaixo:
+
+**Crie uma pasta e clone o projeto**
 
 ```bash
-$ git clone https://github.com/EliasGcf/NOME_DO_REPO.git && cd NOME_DO_REPO
+$ git clone https://github.com/nathanSeixeiro/Estrutura-de-dados.git && cd NOME_PASTA
 ```
 
-**Follow the steps below**
+#### Copiar código
+
+A segunda é caso queira um código específico basta entrar na pasta dele e copiá-lo
+
+**Obs:** isso pode dar algum tipo de erro, não é o recomendado!
 
 
 
 ## 🤔 Como contribuir
 
-**Make a fork of this repository**
+**Crie um fork do repositório**
 
 ```bash
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
-$ gh repo fork EliasGcf/NOME_DO_REPO
+$ gh repo fork nathanSeixeiro/Estrutura-de-dados
 ```
 
-**Follow the steps below**
+**Siga os passos a seguir**
 
 ```bash
-# Clone your fork
-$ git clone your-fork-url && cd NOME_DO_REPO
-# Create a branch with your feature
-$ git checkout -b my-feature
-# Make the commit with your changes
+# Clone seu fork
+$ git clone seu-fork-url && cd NOME_DO_REPO
+# Crie uma branch com seu codigo
+$ git checkout -b minha-branch
+# Faça um commit com suas alterações
 $ git commit -m 'feat: My new feature'
-# Send the code to your remote branch
-$ git push origin my-feature
+# Envie o código para a branch remota
+$ git push origin minha-branch
 ```
 
-After your pull request is merged, you can delete your branch
+depois de sua branch entrar na branch principal, pode apagar a sua branch
 
