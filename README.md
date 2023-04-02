@@ -103,5 +103,5 @@ $ git push origin minha-branch
 depois de sua branch entrar na branch principal, pode apagar a sua branch
 
 ---
-<p align="center">:robot: Idealizado por [Nathan Seixeiro]() e [Luiz Fernando]() :robot:</p>
+:robot: Idealizado por [Nathan Seixeiro](https://www.linkedin.com/in/nathan-seixeiro/) e [Luiz Fernando](https://www.linkedin.com/in/luiz-fernando-amador-67a23a1a7/) :robot:
 
