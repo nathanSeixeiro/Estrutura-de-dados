@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.Scanner;
 import java.util.Date;
 
-public class Ordenacao {
+public class Bubble {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int vetor[];
