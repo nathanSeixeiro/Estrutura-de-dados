@@ -53,7 +53,7 @@ Repositório com intuito de ajudar estudantes e entusiastas a entender estrutura
 Vamos mostrar duas maneiras de como utilizar esses codigos: 
 
 
-### Necessário
+### Requisitos
 
 - Editor de texto ou IDE de sua preferência;
 - JDK instalado;
