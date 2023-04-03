@@ -5,7 +5,7 @@
 
 import java.util.Random;
 
-public class SubstituicaoValorVetor {
+public class Exercicio17 {
     public static void main(String[] args) {
         // Criando um objeto da classe random para gerar os valores
         Random rand = new Random();

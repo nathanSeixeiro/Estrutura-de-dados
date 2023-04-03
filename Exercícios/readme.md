@@ -1,14 +1,13 @@
+Guia dos exercícios e suas respectivas fontes
+
 Lista 1 
 
-
-
-Lista 2
-
-* mediaNotas.java -> Exercicio 10 - Sessão 1. Vetores - Lista 4
-
-* SubstituicaoValorVetor -> exercicio 17 - Sessão 1. Vetores - Lista 4
-
-* MenorNota.java -> Exercicio 17 - Sessão 2. matrizes - Lista 4
+* Lista 4 - 1. Vetores
 
 Fonte: https://programacaodescomplicada.wordpress.com/complementar/
 
+Lista 2
+
+* Lista 4 - 2. Matrizes
+
+Fonte: https://programacaodescomplicada.wordpress.com/complementar/

@@ -5,7 +5,7 @@
 
 import java.util.Random;
 
-public class mediaNotas {
+public class Exercicio10 {
     public static void main(String [] args) {
         Random rand = new Random();
 
