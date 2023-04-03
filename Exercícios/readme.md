@@ -1,5 +1,7 @@
 Guia dos exercícios e suas respectivas fontes
 
+Obs: Tente fazer os exercicios e depois compare com as resoluções do repositório
+
 Lista 1 
 
 * Lista 4 - 1. Vetores
