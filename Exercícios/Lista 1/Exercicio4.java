@@ -24,13 +24,19 @@ public class Exercicio4 {
 
         int x = 0, y = 0;
 
+        /*
+         * Enquanto o usuario não atribuir um valor que está entre os índices
+         * do vetor (neste caso, de 0 a 7, já que são possui tamanho 8) o programa
+         * excecutara o que está dentro do laço do/while. Assim impedindo que o usuario
+         * digite um numero fora dos indices e desencadeie em uma excessão 
+         */
         do {
-        System.out.println("(X e Y precisam estar no conjunto de índices do vetor)");
+        System.out.println("\n(X e Y precisam estar no conjunto de índices do vetor)");
         System.out.print("\nDigite X: ");
         x = scan.nextInt();
         System.out.print("\nDigite Y: ");
-        x = scan.nextInt();
-        } while((x < 0 || x > 7) && (y < 0 || y > 7));
+        y = scan.nextInt();
+        } while((x < 0 || x > 7 ) || (y < 0 || y > 7)); // aqui está a logica explicada no ultimo comentario
 
         System.out.println("Soma dos indices selecionados: " + (vetor[x] + vetor[y]));
 
