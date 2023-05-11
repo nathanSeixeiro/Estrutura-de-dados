@@ -13,3 +13,9 @@ Lista 2
 * Lista 4 - 2. Matrizes
 
 Fonte: https://programacaodescomplicada.wordpress.com/complementar/
+
+Lista 3
+
+* Seção 4 - Estruturas e bibliotecas
+
+Fonte: Beecrowd -> https://www.beecrowd.com.br/judge/pt/categories (É necessário ter uma conta)
