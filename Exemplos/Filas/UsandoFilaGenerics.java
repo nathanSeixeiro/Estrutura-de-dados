@@ -64,7 +64,7 @@ class Pessoa {
 
     @Override
     public String toString() {
-        return "Pessoa [id=" + id + ", nome=" + nome + "]";
+        return "[nome=" + nome + ", id=" + id + "]";
     }        
 }
 
@@ -125,7 +125,7 @@ class Fila <T> {
         @Override
         public String toString() {
             String str = "";
-            str += "Conteudo[" + this.conteudo + "]";
+            str += this.conteudo + " ";
             return str;
         }
     }
@@ -190,10 +190,9 @@ class Fila <T> {
         } else {
             No<T> runner = primeiro;
             while (runner != null) {
-                s += runner + " -> ";
+                s += runner + " \n ";
                 runner = runner.getProximo();
             }
-            s += "//";
         }
         return s;
     }    
