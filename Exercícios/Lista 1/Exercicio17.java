@@ -1,5 +1,5 @@
 /*
- * 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possu ́ırem
+ * 17. Leia um vetor de 10 posições e atribua valor 0 para todos os elementos que possuirem
  * valores negativos.
  */
 
@@ -20,7 +20,7 @@ public class Exercicio17 {
          * Explicando:
          * 
          * A classe random gera apenas números positivos, portanto, para atender ao enuncioado, 
-         * não faria sentido simplismente preencher os valores atribuindo aos índices do vetor com um 
+         * não faria sentido simplesmente preencher os valores atribuindo aos índices do vetor com um 
          * rand.nextLine(); É preciso uma lógica para que numeros negativos entrem no vetor de forma
          * randomica, a variavel PositivoOuNegativo servira justamente para isso
          * 
