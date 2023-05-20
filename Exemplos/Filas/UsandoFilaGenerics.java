@@ -91,7 +91,7 @@ class Carro implements Comparable{
     public void setDono(Pessoa dono) {
         this.dono = dono;
     }
-
+    
     public int compareTo (Carro c) {
         return this.placa.compareTo(c.placa); 
     }
@@ -99,7 +99,7 @@ class Carro implements Comparable{
     @Override
     public String toString() {
         return "carro [placa=" + placa + ", dono=" + dono + "]";
-    }            
+    }        
 }
 
 
