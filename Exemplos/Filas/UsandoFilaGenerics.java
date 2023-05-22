@@ -92,8 +92,8 @@ class Carro implements Comparable{
         this.dono = dono;
     }
     
-    public int compareTo (Carro c) {
-        return this.placa.compareTo(c.placa); 
+    public int compareTo (Object c) {
+        return this.placa.compareTo(((Carro)c).placa); 
     }
 
     @Override
