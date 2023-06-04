@@ -34,11 +34,20 @@ class Fila {
         }
         public void setConteudo(int conteudo) {
             this.conteudo = conteudo;
-        }class Fila {
-            private class No {
-                
-            }
         }
+
+        public No getProximo() {
+            return proximo;
+        }
+
+        public void setProximo(No proximo) {
+            this.proximo = proximo;
+        }
+
+        @Override
+        public String toString() {
+            return "|" + conteudo + "|";
+        }        
     }
 
     private No primeiro;

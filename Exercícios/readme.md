@@ -19,3 +19,9 @@ Lista 3
 * Seção 4 - Estruturas e bibliotecas
 
 Fonte: Beecrowd -> https://www.beecrowd.com.br/judge/pt/categories (É necessário ter uma conta)
+
+Lista 4
+
+* Exercícios de aquecimento e prova do InterFatecs 2023
+
+Fonte: Dentro desta pasta no diretório "Enunciados"
