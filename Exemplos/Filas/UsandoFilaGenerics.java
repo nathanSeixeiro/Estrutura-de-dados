@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ebbe8d051a49cf3e90bb65ea648dcf322e4c2a7
 
 import javax.swing.JOptionPane;
 
@@ -68,7 +71,7 @@ class Pessoa {
     }        
 }
 
-class Carro {
+class Carro implements Comparable{
     private String placa;
     private Pessoa dono;
 
@@ -92,11 +95,15 @@ class Carro {
     public void setDono(Pessoa dono) {
         this.dono = dono;
     }
+    
+    public int compareTo (Object c) {
+        return this.placa.compareTo(((Carro)c).placa); 
+    }
 
     @Override
     public String toString() {
         return "carro [placa=" + placa + ", dono=" + dono + "]";
-    }            
+    }        
 }
 
 
